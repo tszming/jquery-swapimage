@@ -63,11 +63,6 @@ YUI version now also available:  https://github.com/tszming/yui-swapimage</stron
 Please view the source code of this link: http://labs.xddnet.com/jquery-swapimage/example/example.html
 
 ----
-### Contact
-
-Feedback and suggestions are always welcome, you can reach me at tszming at gmail dot com.    
-
-----
 ### License 
 
 Copyright (c) 2011 tszming (tszming@gmail.com)
