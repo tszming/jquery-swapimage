@@ -66,3 +66,13 @@ Please view the source code of this link: http://labs.xddnet.com/jquery-swapimag
 ### Contact
 
 Feedback and suggestions are always welcome, you can reach me at tszming at gmail dot com.    
+
+----
+### License 
+
+Copyright (c) 2011 tszming (tszming@gmail.com)
+
+Dual licensed under the MIT and GPL licenses:
+http://www.opensource.org/licenses/mit-license.php
+http://www.gnu.org/licenses/gpl.html
+
