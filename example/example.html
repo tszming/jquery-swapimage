@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Examples</title>
+	<style type="text/css">
+		body {font-family:arial}
+		h3 {background-color:#444;color:white;padding:3px}
+		img {cursor:hand;cursor:pointer}
+	</style>
+	<script type="text/javascript" src="jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="jquery.metadata.min.js"></script>
+	<script type="text/javascript" src="jquery.swapimage.min.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+	$.swapImage(".swapImage");
+	$.swapImage(".swapImageClick", true, true, "click");
+	$.swapImage(".swapImageDoubleClick", true, true, "dblclick");
+	$.swapImage(".swapImageSingleClick", true, false, "click");
+	$.swapImage(".swapImageDisjoint");
+</script>
+
+<div>
+	<h3>Mouse over</h3>
+	<img class="swapImage {src: 'images/2.gif'}" src="images/1.gif" alt="" />
+</div>
+
+<div>
+	<h3>Click</h3>
+	<img class="swapImageClick {src: 'images/2.gif'}" src="images/1.gif" alt="" />
+</div>
+
+<div>
+	<h3>Double Click</h3>
+	<img class="swapImageDoubleClick {src: 'images/2.gif'}" src="images/1.gif" alt="" />
+</div>
+
+<div>
+	<h3>Single Click, no restore</h3>
+	<img class="swapImageSingleClick {src: 'images/2.gif'}" src="images/1.gif" alt="" />
+</div>
+
+<div>
+	<h3>Disjoint rollovers 1</h3>
+	<img id="i1" class="swapImageDisjoint {src: 'images/a.gif', sin: ['#i2','#i3','#i4'], sout: ['#i2','#i3','#i4'] }" src="images/1.gif" alt="" />
+	<img id="i2" class="swapImageDisjoint {src: 'images/b.gif', sin: ['#i1','#i3','#i4'], sout: ['#i1','#i3','#i4'] }" src="images/2.gif" alt="" />
+	<img id="i3" class="swapImageDisjoint {src: 'images/c.gif', sin: ['#i1','#i2','#i4'], sout: ['#i1','#i2','#i4'] }" src="images/3.gif" alt="" />
+	<img id="i4" class="swapImageDisjoint {src: 'images/d.gif', sin: ['#i1','#i2','#i3'], sout: ['#i1','#i2','#i3'] }" src="images/4.gif" alt="" />
+</div>
+
+<div>
+	<h3>Disjoint rollovers 2</h3>
+	<p><img id="main" src="images/blank.gif" border="1" alt="" /></p>
+	<img class="swapImageDisjoint { sin: ['#main:images/a.gif'], sout: ['#main:images/blank.gif'] }" src="images/1.gif" alt="" />
+	<img class="swapImageDisjoint { sin: ['#main:images/b.gif'], sout: ['#main:images/blank.gif'] }" src="images/2.gif" alt="" />
+	<img class="swapImageDisjoint { sin: ['#main:images/c.gif'], sout: ['#main:images/blank.gif'] }" src="images/3.gif" alt="" />
+	<img class="swapImageDisjoint { sin: ['#main:images/d.gif'], sout: ['#main:images/blank.gif'] }" src="images/4.gif" alt="" />
+</div>
+
+</body>
+</html>

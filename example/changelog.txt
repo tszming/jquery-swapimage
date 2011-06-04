@@ -1,0 +1,24 @@
+1.0.5 (6th Feb 2010)
+---------------------
+* Fixed for the issue with jQuery 1.4.1: https://code.google.com/p/jquery-swapimage/issues/detail?id=9 (reported by evilpeacock)
+
+1.0.4 (27th Dec 2008)
+---------------------
+* Fixed for the issue when calling images in another URL: http://code.google.com/p/jquery-swapimage/issues/detail?id=2 (reported by joiknine)
+
+1.0.3 (28th Nov 2008)
+---------------------
+* Massive code cleanup.
+* Improved disjoint effects.
+
+1.0.2 (22nd Nov 2008)
+---------------------
+* Support for creating disjoint effects.
+
+1.0.1 (21st Mar 2008)
+---------------------
+* Support for multiple events to trigger image swapping, refer to: http://docs.jquery.com/Events.
+
+1.0.0 (21st Mar 2008)
+---------------------
+* Initial release.
