@@ -58,11 +58,6 @@ YUI version now also available:  https://github.com/tszming/yui-swapimage</stron
         <img class="swapImage {sin: ['#main:images/a.gif'], sout: ['#main:images/blank.gif'] }" src="images/1.gif" />
         
 ----
-### Documentions and demo
-
-Please view the source code of this link: http://labs.xddnet.com/jquery-swapimage/example/example.html
-
-----
 ### License 
 
 Copyright (c) 2011 tszming (tszming@gmail.com)
